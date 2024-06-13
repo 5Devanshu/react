@@ -1,0 +1,170 @@
+[
+    {
+      "category": "history",
+      "question": "What was the name of the first successful manned spacecraft launched by the Soviet Union?",
+      "answers": [
+        "Sputnik 1",
+        "Vostok 1",
+        "Luna 1",
+        "Mir"
+      ],
+      "correctAnswer": "Vostok 1",
+      "difficulty": "medium"
+    },
+    {
+      "category": "history",
+      "question": "Which country was the first to grant women the right to vote?",
+      "answers": [
+        "United States",
+        "New Zealand",
+        "United Kingdom",
+        "Canada"
+      ],
+      "correctAnswer": "New Zealand",
+      "difficulty": "easy"
+    },
+    {
+      "category": "history",
+      "question": "What was the name of the empire ruled by Genghis Khan?",
+      "answers": [
+        "Mongol Empire",
+        "Ottoman Empire",
+        "Roman Empire",
+        "Byzantine Empire"
+      ],
+      "correctAnswer": "Mongol Empire",
+      "difficulty": "medium"
+    },
+    {
+      "category": "history",
+      "question": "Which ancient civilization built the pyramids of Giza?",
+      "answers": [
+        "Egyptians",
+        "Greeks",
+        "Romans",
+        "Mayans"
+      ],
+      "correctAnswer": "Egyptians",
+      "difficulty": "easy"
+    },
+    {
+      "category": "science",
+      "question": "What is the smallest particle of an element that still retains its properties?",
+      "answers": [
+        "Atom",
+        "Molecule",
+        "Proton",
+        "Neutron"
+      ],
+      "correctAnswer": "Atom",
+      "difficulty": "easy"
+    },
+    {
+      "category": "science",
+      "question": "What is the process by which plants convert light energy into chemical energy?",
+      "answers": [
+        "Photosynthesis",
+        "Respiration",
+        "Fermentation",
+        "Combustion"
+      ],
+      "correctAnswer": "Photosynthesis",
+      "difficulty": "medium"
+    },
+    {
+      "category": "science",
+      "question": "What is the chemical symbol for gold?",
+      "answers": [
+        "Au",
+        "Ag",
+        "Fe",
+        "Cu"
+      ],
+      "correctAnswer": "Au",
+      "difficulty": "easy"
+    },
+    {
+      "category": "science",
+      "question": "What is the theory that explains the origin and evolution of the universe?",
+      "answers": [
+        "Big Bang Theory",
+        "Theory of Relativity",
+        "Cell Theory",
+        "Atomic Theory"
+      ],
+      "correctAnswer": "Big Bang Theory",
+      "difficulty": "medium"
+    },
+    {
+      "category": "geography",
+      "question": "What is the largest ocean on Earth?",
+      "answers": [
+        "Pacific Ocean",
+        "Atlantic Ocean",
+        "Indian Ocean",
+        "Arctic Ocean"
+      ],
+      "correctAnswer": "Pacific Ocean",
+      "difficulty": "easy"
+    },
+    {
+      "category": "geography",
+      "question": "Which is the longest river in Africa?",
+      "answers": [
+        "Nile River",
+        "Congo River",
+        "Niger River",
+        "Zambezi River"
+      ],
+      "correctAnswer": "Nile River",
+      "difficulty": "medium"
+    },
+    {
+      "category": "geography",
+      "question": "Which is the highest mountain peak in the world?",
+      "answers": [
+        "Mount Everest",
+        "K2",
+        "Kangchenjunga",
+        "Lhotse"
+      ],
+      "correctAnswer": "Mount Everest",
+      "difficulty": "easy"
+    },
+    {
+      "category": "geography",
+      "question": "What is the largest country in the world by land area?",
+      "answers": [
+        "Russia",
+        "Canada",
+        "China",
+        "United States"
+      ],
+      "correctAnswer": "Russia",
+      "difficulty": "medium"
+    },
+    {
+      "category": "sports",
+      "question": "Which sport is played on a pitch with stumps and bails?",
+      "answers": [
+        "Cricket",
+        "Baseball",
+        "Tennis",
+        "Golf"
+      ],
+      "correctAnswer": "Cricket",
+      "difficulty": "easy"
+    },
+    {
+      "category": "sports",
+      "question": "Which player has won the most Grand Slam titles in men's singles tennis?",
+      "answers": [
+        "Roger Federer",
+        "Rafael Nadal",
+        "Novak Djokovic",
+        "Pete Sampras"
+      ],
+      "correctAnswer": "Roger Federer",
+      "difficulty": "medium"
+    }
+  ]
