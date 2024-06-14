@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import quizQuestionsData from './quizQuestions.json';
 import './App.css'; // Import the CSS file
+// import Navbar from './components/Navbar';
+// import Button from '@mui/material/Button';
 
 
 const QuizContainer = () => {
@@ -89,6 +91,11 @@ const App = () => {
   };
 
   return (
+    <>
+    {/* <div>
+    <Navbar />
+    </div> */}
+   
     <div className="app">
       <h1>Quiz App</h1>
       {!quizStarted && (
@@ -127,11 +134,13 @@ const App = () => {
               <option value="hard">Hard</option>
             </select>
           </label>
+  
           <button onClick={handleStartQuiz}>Start Quiz</button>
         </div>
       )}
       {quizStarted && <QuizContainer /* Pass the selectedQuestions prop */ />}
     </div>
+    </>
   );
 };
 
