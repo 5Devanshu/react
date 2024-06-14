@@ -1,5 +1,7 @@
 /* Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
 /* General Styles */
 * {
@@ -15,6 +17,7 @@ body {
   /* opacity: 0.1;
   background-size:cover;
   background-repeat: no-repeat; */
+  background-color: #acfa70;
   color: #fff;
   display: flex;
   justify-content: center;
@@ -29,6 +32,8 @@ body.light-theme {
 }
 
 .app {
+  /* width: 800px; */
+  /* height: 320px; */
   max-width: 800px;
   margin: 0 auto;
   padding: 40px 20px;
@@ -45,6 +50,10 @@ body.light-theme {
 }
 .app h1{
   margin: 0px 0px 20px 0px;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+
 
 }
 
@@ -53,7 +62,7 @@ nav {
   background-color: #222;
   color: #fff;
   padding: 10px 20px;
-  border-radius: 8px 8px 0 0;
+  /* border-radius: 8px 8px 0 0; */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -98,6 +107,10 @@ nav .theme-toggle {
   font-weight: 600;
   color: #000000;
   transition: color 0.3s ease;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+
 }
 
 .quiz-options.light-theme label {
@@ -131,6 +144,9 @@ nav .theme-toggle {
   cursor: pointer;
   margin: 10px;
   transition: background-color 0.3s ease;
+  font-family: "Comic Neue", cursive;
+  font-weight: 300;
+  font-style: normal;
 }
 
 .quiz-options button:hover {
@@ -159,6 +175,10 @@ nav .theme-toggle {
   margin-bottom: 10px;
   color: #000000;
   transition: color 0.3s ease;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+
 }
 
 .question-container.light-theme h2 {
@@ -169,6 +189,7 @@ nav .theme-toggle {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+
 }
 
 .answer-btn {
@@ -181,6 +202,9 @@ nav .theme-toggle {
   margin: 5px;
   cursor: pointer;
   transition: background-color 0.3s ease, color 0.3s ease;
+  font-family: "Comic Neue", cursive;
+  font-weight: 700;
+  font-style: normal;
 }
 
 .answer-btn.light-theme {
@@ -203,6 +227,10 @@ nav .theme-toggle {
   font-size: 18px;
   color: #000000;
   transition: color 0.3s ease;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+
 }
 
 .result-container.light-theme {
@@ -229,6 +257,9 @@ nav .theme-toggle {
   cursor: pointer;
   margin: 10px;
   transition: background-color 0.3s ease;
+  font-family: "Comic Neue", cursive;
+  font-weight: 700;
+  font-style: normal;
 }
 
 .result-container button:hover {
@@ -238,4 +269,14 @@ nav .theme-toggle {
 .result-container p {
   font-size: 16px;
   margin-top: 10px;
+}
+
+/* Add this to App.css */
+.timer-card {
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #000000;
+  text-align: center;
 }

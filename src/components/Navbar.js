@@ -1,17 +1,30 @@
-// import '@coreui/coreui/dist/css/coreui.min.css';
-// import { CNavbar, CContainer, CNavbarBrand } from '@coreui/react';
+import React from 'react';
+import './Navbar.css';
 
-// import React from 'react'
+const Navbar = () => {
+  return (
+    <nav className="navbar">
+      <div className="navbar-brand">
+        <a href="#">Quiz App</a>
+      </div>
+      <ul className="navbar-nav">
+        <li className="nav-item">
+          <a href="#">Home</a>
+        </li>
+        <li className="nav-item">
+          <a href="#">About</a>
+        </li>
+        <li className="nav-item">
+          <a href="#">Contact</a>
+        </li>
+      </ul>
+      <div className="navbar-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+  );
+};
 
-// export default function Navbar() {
-//     return (
-//         <div>
-//             <CNavbar className="bg-body-tertiary">
-//                 <CContainer fluid>
-//                     <CNavbarBrand href="#">Quiz App</CNavbarBrand>
-//                 </CContainer>
-//             </CNavbar>
-//         </div>
-//     )
-// }
-
+export default Navbar;
