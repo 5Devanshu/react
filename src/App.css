@@ -1,5 +1,7 @@
 /* Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
 /* General Styles */
 * {
@@ -10,7 +12,12 @@
 
 body {
   font-family: 'Poppins', sans-serif;
-  background-color: #333;
+  /* background-color: #000000; */
+  /* background-image: url(./images/bg2.jpg); */
+  /* opacity: 0.1;
+  background-size:cover;
+  background-repeat: no-repeat; */
+  background-color: #acfa70;
   color: #fff;
   display: flex;
   justify-content: center;
@@ -25,17 +32,29 @@ body.light-theme {
 }
 
 .app {
+  /* width: 800px; */
+  /* height: 320px; */
   max-width: 800px;
   margin: 0 auto;
-  padding: 20px;
-  background-color: #444;
+  padding: 40px 20px;
+  /* background-color: #ffffff; */
+  background-color: #000000;
+  
   border-radius: 8px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: rgba(0, 0, 0, 0.4) 22px 31px 6px, rgba(0, 13, 0, 0.3) 0px 23px 13px -1px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
   transition: background-color 0.3s ease;
 }
 
 .app.light-theme {
   background-color: #fff;
+}
+.app h1{
+  margin: 0px 0px 20px 0px;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+
+
 }
 
 /* Navbar */
@@ -43,7 +62,7 @@ nav {
   background-color: #222;
   color: #fff;
   padding: 10px 20px;
-  border-radius: 8px 8px 0 0;
+  /* border-radius: 8px 8px 0 0; */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -74,7 +93,7 @@ nav .theme-toggle {
   justify-content: center;
   margin-bottom: 20px;
   padding: 20px;
-  background-color: #555;
+  background-color: #ffffff;
   border-radius: 8px;
   transition: background-color 0.3s ease;
 }
@@ -86,8 +105,12 @@ nav .theme-toggle {
 .quiz-options label {
   margin: 10px;
   font-weight: 600;
-  color: #ccc;
+  color: #000000;
   transition: color 0.3s ease;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+
 }
 
 .quiz-options.light-theme label {
@@ -121,6 +144,9 @@ nav .theme-toggle {
   cursor: pointer;
   margin: 10px;
   transition: background-color 0.3s ease;
+  font-family: "Comic Neue", cursive;
+  font-weight: 300;
+  font-style: normal;
 }
 
 .quiz-options button:hover {
@@ -129,7 +155,7 @@ nav .theme-toggle {
 
 /* Quiz Container */
 .quiz-container {
-  background-color: #444;
+  background-color: #ffffff;
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -147,8 +173,12 @@ nav .theme-toggle {
 .question-container h2 {
   font-size: 24px;
   margin-bottom: 10px;
-  color: #fff;
+  color: #000000;
   transition: color 0.3s ease;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+
 }
 
 .question-container.light-theme h2 {
@@ -159,10 +189,12 @@ nav .theme-toggle {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+
 }
 
 .answer-btn {
-  background-color: #555;
+  /* background-color: #555; */
+  background-color: #009bd6;
   color: #fff;
   padding: 10px 20px;
   border: none;
@@ -170,6 +202,9 @@ nav .theme-toggle {
   margin: 5px;
   cursor: pointer;
   transition: background-color 0.3s ease, color 0.3s ease;
+  font-family: "Comic Neue", cursive;
+  font-weight: 700;
+  font-style: normal;
 }
 
 .answer-btn.light-theme {
@@ -190,8 +225,12 @@ nav .theme-toggle {
   text-align: center;
   margin-top: 20px;
   font-size: 18px;
-  color: #fff;
+  color: #000000;
   transition: color 0.3s ease;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+
 }
 
 .result-container.light-theme {
@@ -201,7 +240,7 @@ nav .theme-toggle {
 .result-container h2 {
   font-size: 24px;
   margin-bottom: 10px;
-  color: #fff;
+  color: #000000;
   transition: color 0.3s ease;
 }
 
@@ -218,6 +257,9 @@ nav .theme-toggle {
   cursor: pointer;
   margin: 10px;
   transition: background-color 0.3s ease;
+  font-family: "Comic Neue", cursive;
+  font-weight: 700;
+  font-style: normal;
 }
 
 .result-container button:hover {
@@ -227,4 +269,14 @@ nav .theme-toggle {
 .result-container p {
   font-size: 16px;
   margin-top: 10px;
+}
+
+/* Add this to App.css */
+.timer-card {
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #000000;
+  text-align: center;
 }

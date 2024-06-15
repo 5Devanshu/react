@@ -1,170 +1,698 @@
 [
-    {
-      "category": "history",
-      "question": "What was the name of the first successful manned spacecraft launched by the Soviet Union?",
-      "answers": [
-        "Sputnik 1",
-        "Vostok 1",
-        "Luna 1",
-        "Mir"
-      ],
-      "correctAnswer": "Vostok 1",
-      "difficulty": "medium"
-    },
-    {
-      "category": "history",
-      "question": "Which country was the first to grant women the right to vote?",
-      "answers": [
-        "United States",
-        "New Zealand",
-        "United Kingdom",
-        "Canada"
-      ],
-      "correctAnswer": "New Zealand",
-      "difficulty": "easy"
-    },
-    {
-      "category": "history",
-      "question": "What was the name of the empire ruled by Genghis Khan?",
-      "answers": [
-        "Mongol Empire",
-        "Ottoman Empire",
-        "Roman Empire",
-        "Byzantine Empire"
-      ],
-      "correctAnswer": "Mongol Empire",
-      "difficulty": "medium"
-    },
-    {
-      "category": "history",
-      "question": "Which ancient civilization built the pyramids of Giza?",
-      "answers": [
-        "Egyptians",
-        "Greeks",
-        "Romans",
-        "Mayans"
-      ],
-      "correctAnswer": "Egyptians",
-      "difficulty": "easy"
-    },
-    {
-      "category": "science",
-      "question": "What is the smallest particle of an element that still retains its properties?",
-      "answers": [
-        "Atom",
-        "Molecule",
-        "Proton",
-        "Neutron"
-      ],
-      "correctAnswer": "Atom",
-      "difficulty": "easy"
-    },
-    {
-      "category": "science",
-      "question": "What is the process by which plants convert light energy into chemical energy?",
-      "answers": [
-        "Photosynthesis",
-        "Respiration",
-        "Fermentation",
-        "Combustion"
-      ],
-      "correctAnswer": "Photosynthesis",
-      "difficulty": "medium"
-    },
-    {
-      "category": "science",
-      "question": "What is the chemical symbol for gold?",
-      "answers": [
-        "Au",
-        "Ag",
-        "Fe",
-        "Cu"
-      ],
-      "correctAnswer": "Au",
-      "difficulty": "easy"
-    },
-    {
-      "category": "science",
-      "question": "What is the theory that explains the origin and evolution of the universe?",
-      "answers": [
-        "Big Bang Theory",
-        "Theory of Relativity",
-        "Cell Theory",
-        "Atomic Theory"
-      ],
-      "correctAnswer": "Big Bang Theory",
-      "difficulty": "medium"
-    },
-    {
-      "category": "geography",
-      "question": "What is the largest ocean on Earth?",
-      "answers": [
-        "Pacific Ocean",
-        "Atlantic Ocean",
-        "Indian Ocean",
-        "Arctic Ocean"
-      ],
-      "correctAnswer": "Pacific Ocean",
-      "difficulty": "easy"
-    },
-    {
-      "category": "geography",
-      "question": "Which is the longest river in Africa?",
-      "answers": [
-        "Nile River",
-        "Congo River",
-        "Niger River",
-        "Zambezi River"
-      ],
-      "correctAnswer": "Nile River",
-      "difficulty": "medium"
-    },
-    {
-      "category": "geography",
-      "question": "Which is the highest mountain peak in the world?",
-      "answers": [
-        "Mount Everest",
-        "K2",
-        "Kangchenjunga",
-        "Lhotse"
-      ],
-      "correctAnswer": "Mount Everest",
-      "difficulty": "easy"
-    },
-    {
-      "category": "geography",
-      "question": "What is the largest country in the world by land area?",
-      "answers": [
-        "Russia",
-        "Canada",
-        "China",
-        "United States"
-      ],
-      "correctAnswer": "Russia",
-      "difficulty": "medium"
-    },
-    {
-      "category": "sports",
-      "question": "Which sport is played on a pitch with stumps and bails?",
-      "answers": [
-        "Cricket",
-        "Baseball",
-        "Tennis",
-        "Golf"
-      ],
-      "correctAnswer": "Cricket",
-      "difficulty": "easy"
-    },
-    {
-      "category": "sports",
-      "question": "Which player has won the most Grand Slam titles in men's singles tennis?",
-      "answers": [
-        "Roger Federer",
-        "Rafael Nadal",
-        "Novak Djokovic",
-        "Pete Sampras"
-      ],
-      "correctAnswer": "Roger Federer",
-      "difficulty": "medium"
-    }
-  ]
+  {
+    "category": "history",
+    "question": "Which country was the first to grant women the right to vote?",
+    "answers": [
+      "United States",
+      "New Zealand",
+      "United Kingdom",
+      "Canada"
+    ],
+    "correctAnswer": "New Zealand",
+    "difficulty": "easy"
+  },
+  {
+    "category": "history",
+    "question": "Which ancient civilization built the pyramids of Giza?",
+    "answers": [
+      "Egyptians",
+      "Greeks",
+      "Romans",
+      "Mayans"
+    ],
+    "correctAnswer": "Egyptians",
+    "difficulty": "easy"
+  },
+  {
+    "category": "history",
+    "question": "Who was the first President of the United States?",
+    "answers": [
+      "George Washington",
+      "Thomas Jefferson",
+      "John Adams",
+      "James Madison"
+    ],
+    "correctAnswer": "George Washington",
+    "difficulty": "easy"
+  },
+  {
+    "category": "history",
+    "question": "During which war was the Battle of Gettysburg fought?",
+    "answers": [
+      "American Civil War",
+      "World War I",
+      "World War II",
+      "War of 1812"
+    ],
+    "correctAnswer": "American Civil War",
+    "difficulty": "easy"
+  },
+  {
+    "category": "history",
+    "question": "Which ancient city was famously buried by the eruption of Mount Vesuvius in 79 AD?",
+    "answers": [
+      "Pompeii",
+      "Athens",
+      "Carthage",
+      "Sparta"
+    ],
+    "correctAnswer": "Pompeii",
+    "difficulty": "easy"
+  },
+  {
+    "category": "history",
+    "question": "Which document, signed in 1215, limited the powers of the English monarch and laid the foundation for modern democracy?",
+    "answers": [
+      "Magna Carta",
+      "Bill of Rights",
+      "Constitution",
+      "Declaration of Independence"
+    ],
+    "correctAnswer": "Magna Carta",
+    "difficulty": "easy"
+  },
+  {
+    "category": "history",
+    "question": "Who was the British monarch during the Victorian era?",
+    "answers": [
+      "Queen Victoria",
+      "Queen Elizabeth I",
+      "King George III",
+      "King Henry VIII"
+    ],
+    "correctAnswer": "Queen Victoria",
+    "difficulty": "easy"
+  },
+  {
+    "category": "history",
+    "question": "Which ship was famously sunk by an iceberg on its maiden voyage in 1912?",
+    "answers": [
+      "Titanic",
+      "Lusitania",
+      "Britannic",
+      "Olympic"
+    ],
+    "correctAnswer": "Titanic",
+    "difficulty": "easy"
+  },
+  {
+    "category": "history",
+    "question": "Who was known as the 'Iron Lady' and served as the Prime Minister of the United Kingdom?",
+    "answers": [
+      "Margaret Thatcher",
+      "Theresa May",
+      "Angela Merkel",
+      "Hillary Clinton"
+    ],
+    "correctAnswer": "Margaret Thatcher",
+    "difficulty": "easy"
+  },
+  {
+    "category": "history",
+    "question": "Which explorer is credited with discovering the Americas in 1492?",
+    "answers": [
+      "Christopher Columbus",
+      "Marco Polo",
+      "Ferdinand Magellan",
+      "Leif Erikson"
+    ],
+    "correctAnswer": "Christopher Columbus",
+    "difficulty": "easy"
+  },
+  {
+    "category": "history",
+    "question": "What was the name of the first successful Soviet space mission that put a satellite into Earth's orbit?",
+    "answers": [
+      "Sputnik 1",
+      "Vostok 1",
+      "Luna 1",
+      "Mir"
+    ],
+    "correctAnswer": "Sputnik 1",
+    "difficulty": "easy"
+  },
+  {
+    "category": "history",
+    "question": "Which World War II battle was fought on the beaches of Normandy, France?",
+    "answers": [
+      "D-Day",
+      "Battle of Stalingrad",
+      "Battle of the Bulge",
+      "Battle of Midway"
+    ],
+    "correctAnswer": "D-Day",
+    "difficulty": "easy"
+  },
+  {
+    "category": "history",
+    "question": "Who was the leader of the Civil Rights Movement in the United States?",
+    "answers": [
+      "Martin Luther King Jr.",
+      "Malcolm X",
+      "Rosa Parks",
+      "W.E.B. Du Bois"
+    ],
+    "correctAnswer": "Martin Luther King Jr.",
+    "difficulty": "easy"
+  },
+  {
+    "category": "history",
+    "question": "What was the name of the wall that divided East and West Berlin during the Cold War?",
+    "answers": [
+      "Berlin Wall",
+      "Iron Curtain",
+      "Great Wall of China",
+      "Hadrian's Wall"
+    ],
+    "correctAnswer": "Berlin Wall",
+    "difficulty": "easy"
+  },
+  {
+    "category": "history",
+    "question": "Who was the first person to walk on the moon?",
+    "answers": [
+      "Neil Armstrong",
+      "Buzz Aldrin",
+      "Michael Collins",
+      "Yuri Gagarin"
+    ],
+    "correctAnswer": "Neil Armstrong",
+    "difficulty": "easy"
+  },
+  {
+    "category": "history",
+    "question": "What was the name of the treaty that ended World War I?",
+    "answers": [
+      "Treaty of Versailles",
+      "Treaty of Paris",
+      "Treaty of Ghent",
+      "Treaty of Westphalia"
+    ],
+    "correctAnswer": "Treaty of Versailles",
+    "difficulty": "easy"
+  },
+  {
+    "category": "history",
+    "question": "Which ancient Greek philosopher is known for his famous quote 'I think, therefore I am'?",
+    "answers": [
+      "Rene Descartes",
+      "Socrates",
+      "Plato",
+      "Aristotle"
+    ],
+    "correctAnswer": "Rene Descartes",
+    "difficulty": "easy"
+  },
+  {
+    "category": "history",
+    "question": "Who was the leader of the French Revolution?",
+    "answers": [
+      "Napoleon Bonaparte",
+      "Robespierre",
+      "Louis XVI",
+      "Marie Antoinette"
+    ],
+    "correctAnswer": "Robespierre",
+    "difficulty": "easy"
+  },
+  {
+    "category": "history",
+    "question": "What was the name of the ancient Egyptian ruler who built the Great Sphinx?",
+    "answers": [
+      "Khafre",
+      "Tutankhamun",
+      "Ramses II",
+      "Cleopatra"
+    ],
+    "correctAnswer": "Khafre",
+    "difficulty": "easy"
+  },
+  {
+    "category": "history",
+    "question": "Which empire was ruled by Genghis Khan?",
+    "answers": [
+      "Mongol Empire",
+      "Ottoman Empire",
+      "Byzantine Empire",
+      "Roman Empire"
+    ],
+    "correctAnswer": "Mongol Empire",
+    "difficulty": "easy"
+  },
+  {
+    "category": "history",
+    "question": "What was the name of the famous English warship that sank in 1545?",
+    "answers": [
+      "Mary Rose",
+      "Victory",
+      "Endeavour",
+      "Bounty"
+    ],
+    "correctAnswer": "Mary Rose",
+    "difficulty": "easy"
+  },
+  {
+    "category": "science",
+    "question": "What is the smallest unit of life?",
+    "answers": [
+"Atom",
+"Molecule",
+"Cell",
+"Tissue"
+],
+"correctAnswer": "Cell",
+"difficulty": "easy"
+},
+{
+"category": "science",
+"question": "What is the process by which plants convert light energy into chemical energy?",
+"answers": [
+"Respiration",
+"Photosynthesis",
+"Fermentation",
+"Digestion"
+],
+"correctAnswer": "Photosynthesis",
+"difficulty": "easy"
+},
+{
+"category": "science",
+"question": "What is the largest planet in our solar system?",
+"answers": [
+"Jupiter",
+"Saturn",
+"Neptune",
+"Earth"
+],
+"correctAnswer": "Jupiter",
+"difficulty": "easy"
+},
+{
+"category": "science",
+"question": "What is the chemical symbol for water?",
+"answers": [
+"H2O",
+"CO2",
+"NaCl",
+"O2"
+],
+"correctAnswer": "H2O",
+"difficulty": "easy"
+},
+{
+"category": "science",
+"question": "Which scientist developed the theory of relativity?",
+"answers": [
+"Albert Einstein",
+"Isaac Newton",
+"Galileo Galilei",
+"Charles Darwin"
+],
+"correctAnswer": "Albert Einstein",
+"difficulty": "easy"
+},
+{
+"category": "science",
+"question": "What is the unit used to measure electric current?",
+"answers": [
+"Ampere",
+"Volt",
+"Ohm",
+"Watt"
+],
+"correctAnswer": "Ampere",
+"difficulty": "easy"
+},
+{
+"category": "science",
+"question": "What is the study of the Earth's physical environment called?",
+"answers": [
+"Geography",
+"Geology",
+"Biology",
+"Physics"
+],
+"correctAnswer": "Geography",
+"difficulty": "easy"
+},
+{
+"category": "science",
+"question": "What is the name of the force that attracts objects towards each other?",
+"answers": [
+"Gravity",
+"Friction",
+"Magnetism",
+"Electromagnetism"
+],
+"correctAnswer": "Gravity",
+"difficulty": "easy"
+},
+{
+"category": "science",
+"question": "What is the primary gas that makes up the Earth's atmosphere?",
+"answers": [
+"Nitrogen",
+"Oxygen",
+"Carbon Dioxide",
+"Helium"
+],
+"correctAnswer": "Nitrogen",
+"difficulty": "easy"
+},
+{
+"category": "science",
+"question": "What is the study of living organisms called?",
+"answers": [
+"Biology",
+"Chemistry",
+"Physics",
+"Astronomy"
+],
+"correctAnswer": "Biology",
+"difficulty": "easy"
+},
+{
+"category": "science",
+"question": "What is the name of the force that opposes the motion of objects?",
+"answers": [
+"Friction",
+"Gravity",
+"Magnetism",
+"Inertia"
+],
+"correctAnswer": "Friction",
+"difficulty": "easy"
+},
+{
+"category": "science",
+"question": "Which elements make up table salt?",
+"answers": [
+"Sodium and Chlorine",
+"Hydrogen and Oxygen",
+"Carbon and Oxygen",
+"Nitrogen and Hydrogen"
+],
+"correctAnswer": "Sodium and Chlorine",
+"difficulty": "easy"
+},
+{
+"category": "science",
+"question": "What is the process by which water vapor condenses into liquid water called?",
+"answers": [
+"Condensation",
+"Evaporation",
+"Melting",
+"Sublimation"
+],
+"correctAnswer": "Condensation",
+"difficulty": "easy"
+},
+{
+"category": "science",
+"question": "What is the study of the physical properties and behavior of matter and energy called?",
+"answers": [
+"Physics",
+"Chemistry",
+"Biology",
+"Astronomy"
+],
+"correctAnswer": "Physics",
+"difficulty": "easy"
+},
+{
+"category": "science",
+"question": "What is the name of the force that opposes the motion of electric charges?",
+"answers": [
+"Resistance",
+"Inductance",
+"Capacitance",
+"Impedance"
+],
+"correctAnswer": "Resistance",
+"difficulty": "easy"
+},
+{
+"category": "science",
+"question": "What is the process by which plants and trees release water vapor into the air called?",
+"answers": [
+"Transpiration",
+"Respiration",
+"Photosynthesis",
+"Evaporation"
+],
+"correctAnswer": "Transpiration",
+"difficulty": "easy"
+},
+{
+"category": "science",
+"question": "What is the name of the force that acts between charged particles?",
+"answers": [
+"Electromagnetism",
+"Gravity",
+"Strong Nuclear Force",
+"Weak Nuclear Force"
+],
+"correctAnswer": "Electromagnetism",
+"difficulty": "easy"
+},
+{
+"category": "science",
+"question": "What is the study of the chemical composition, structure, and properties of matter called?",
+"answers": [
+"Chemistry",
+"Physics",
+"Biology",
+"Geology"
+],
+"correctAnswer": "Chemistry",
+"difficulty": "easy"
+},
+{
+"category": "science",
+"question": "What is the name of the natural phenomenon that causes the seasons on Earth?",
+"answers": [
+"Tilt of the Earth's axis",
+"Rotation of the Earth",
+"Revolution of the Earth around the Sun",
+"Phases of the Moon"
+],
+"correctAnswer": "Tilt of the Earth's axis",
+"difficulty": "easy"
+},
+{
+"category": "science",
+"question": "What is the name of the process by which a solid turns directly into a gas without passing through the liquid state?",
+"answers": [
+"Sublimation",
+"Condensation",
+"Evaporation",
+"Melting"
+],
+"correctAnswer": "Sublimation",
+"difficulty": "easy"
+},
+{
+"category": "geography",
+"question": "What is the longest river in the world?",
+"answers": [
+"Nile",
+"Amazon",
+"Mississippi",
+"Yangtze"
+],
+"correctAnswer": "Nile",
+"difficulty": "easy"
+},
+{
+"category": "geography",
+"question": "Which continent is the largest in terms of land area?",
+"answers": [
+"Asia",
+"Africa",
+"North America",
+"Antarctica"
+],
+"correctAnswer": "Asia",
+"difficulty": "easy"
+},
+{
+"category": "geography",
+"question": "What is the capital city of Australia?",
+"answers": [
+"Canberra",
+"Sydney",
+"Melbourne",
+"Brisbane"
+],
+"correctAnswer": "Canberra",
+"difficulty": "easy"
+},
+{
+"category": "geography",
+"question": "Which ocean lies between North and South America?",
+"answers": [
+"Pacific Ocean",
+"Atlantic Ocean",
+"Indian Ocean",
+"Arctic Ocean"
+],
+"correctAnswer": "Pacific Ocean",
+"difficulty": "easy"
+},
+{
+"category": "geography",
+"question": "What is the tallest mountain in the world?",
+"answers": [
+"Mount Everest",
+"K2",
+"Kangchenjunga",
+"Lhotse"
+],
+"correctAnswer": "Mount Everest",
+"difficulty": "easy"
+},
+{
+"category": "geography",
+"question": "What is the name of the largest desert in the world?",
+"answers": [
+"Antarctic Desert",
+"Sahara Desert",
+"Arabian Desert",
+"Gobi Desert"
+],
+"correctAnswer": "Antarctic Desert",
+"difficulty": "easy"
+},
+{
+"category": "geography",
+"question": "Which is the smallest continent by land area?",
+"answers": [
+"Australia",
+"Antarctica",
+"Europe",
+"South America"
+],
+"correctAnswer": "Australia",
+"difficulty": "easy"
+},
+{
+"category": "geography",
+"question": "What is the name of the longest mountain range in the world?",
+"answers": [
+"Andes Mountains",
+"Rocky Mountains",
+"Himalayas",
+"Alps"
+],
+"correctAnswer": "Andes Mountains",
+"difficulty": "easy"
+},
+{
+"category": "geography",
+"question": "Which is the largest country in the world by land area?",
+"answers": [
+"Russia",
+"Canada",
+"China",
+"United States"
+],
+"correctAnswer": "Russia",
+"difficulty": "easy"
+},
+{
+"category": "geography",
+"question": "What is the name of the largest ocean on Earth?",
+"answers": [
+"Pacific Ocean",
+"Atlantic Ocean",
+"Indian Ocean",
+"Arctic Ocean"
+],
+"correctAnswer": "Pacific Ocean",
+"difficulty": "easy"
+},
+{
+"category": "geography",
+"question": "Which is the hottest continent on Earth?",
+"answers": [
+"Africa",
+"South America",
+"Australia",
+"Antarctica"
+],
+"correctAnswer": "Africa",
+"difficulty": "easy"
+},
+{
+"category": "geography",
+"question": "What is the name of the largest freshwater lake in the world?",
+"answers": [
+"Caspian Sea",
+"Lake Superior",
+"Lake Victoria",
+"Lake Baikal"
+],
+"correctAnswer": "Caspian Sea",
+"difficulty": "easy"
+},
+{
+"category": "geography",
+"question": "Which is the largest island in the world?",
+"answers": [
+"Greenland",
+"New Guinea",
+"Borneo",
+"Madagascar"
+],
+"correctAnswer": "Greenland",
+"difficulty": "easy"
+},
+{
+"category": "geography",
+"question": "What is the name of the longest river in Africa?",
+"answers": [
+"Nile",
+"Congo",
+"Niger",
+"Zambezi"
+],
+"correctAnswer": "Nile",
+"difficulty": "easy"
+},
+{
+"category": "geography",
+"question": "Which is the largest peninsula in the world?",
+"answers": [
+"Arabian Peninsula",
+"Scandinavian Peninsula",
+"Iberian Peninsula",
+"Indian Peninsula"
+],
+"correctAnswer": "Arabian Peninsula",
+"difficulty": "easy"
+},
+{
+"category": "geography",
+"question": "What is the name of the largest island in the Mediterranean Sea?",
+"answers": [
+"Sicily",
+"Crete",
+"Cyprus",
+"Sardinia"
+],
+"correctAnswer": "Sicily",
+"difficulty": "easy"
+},
+{
+"category": "geography",
+"question": "Which is the highest waterfall in the world?",
+"answers": [
+"Angel Falls",
+"Niagara Falls",
+"Victoria Falls",
+"Iguazu Falls"
+],
+"correctAnswer": "Angel Falls",
+"difficulty": "easy"
+}
+]
